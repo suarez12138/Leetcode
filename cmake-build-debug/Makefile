@@ -122,32 +122,32 @@ LeetCode/fast:
 	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/build
 .PHONY : LeetCode/fast
 
-minDistance.obj: minDistance.cpp.obj
+PredictTheWinner.obj: PredictTheWinner.cpp.obj
 
-.PHONY : minDistance.obj
+.PHONY : PredictTheWinner.obj
 
 # target to build an object file
-minDistance.cpp.obj:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/minDistance.cpp.obj
-.PHONY : minDistance.cpp.obj
+PredictTheWinner.cpp.obj:
+	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/PredictTheWinner.cpp.obj
+.PHONY : PredictTheWinner.cpp.obj
 
-minDistance.i: minDistance.cpp.i
+PredictTheWinner.i: PredictTheWinner.cpp.i
 
-.PHONY : minDistance.i
+.PHONY : PredictTheWinner.i
 
 # target to preprocess a source file
-minDistance.cpp.i:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/minDistance.cpp.i
-.PHONY : minDistance.cpp.i
+PredictTheWinner.cpp.i:
+	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/PredictTheWinner.cpp.i
+.PHONY : PredictTheWinner.cpp.i
 
-minDistance.s: minDistance.cpp.s
+PredictTheWinner.s: PredictTheWinner.cpp.s
 
-.PHONY : minDistance.s
+.PHONY : PredictTheWinner.s
 
 # target to generate assembly for a file
-minDistance.cpp.s:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/minDistance.cpp.s
-.PHONY : minDistance.cpp.s
+PredictTheWinner.cpp.s:
+	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/PredictTheWinner.cpp.s
+.PHONY : PredictTheWinner.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... LeetCode
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... minDistance.obj
-	@echo ... minDistance.i
-	@echo ... minDistance.s
+	@echo ... PredictTheWinner.obj
+	@echo ... PredictTheWinner.i
+	@echo ... PredictTheWinner.s
 .PHONY : help
 
 

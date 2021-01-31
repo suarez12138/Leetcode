@@ -56,27 +56,27 @@ include CMakeFiles/LeetCode.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LeetCode.dir/flags.make
 
-CMakeFiles/LeetCode.dir/minDistance.cpp.obj: CMakeFiles/LeetCode.dir/flags.make
-CMakeFiles/LeetCode.dir/minDistance.cpp.obj: ../minDistance.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\99681\CLionProjects\LeetCode\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LeetCode.dir/minDistance.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LeetCode.dir\minDistance.cpp.obj -c C:\Users\99681\CLionProjects\LeetCode\minDistance.cpp
+CMakeFiles/LeetCode.dir/PredictTheWinner.cpp.obj: CMakeFiles/LeetCode.dir/flags.make
+CMakeFiles/LeetCode.dir/PredictTheWinner.cpp.obj: ../PredictTheWinner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\99681\CLionProjects\LeetCode\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LeetCode.dir/PredictTheWinner.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LeetCode.dir\PredictTheWinner.cpp.obj -c C:\Users\99681\CLionProjects\LeetCode\PredictTheWinner.cpp
 
-CMakeFiles/LeetCode.dir/minDistance.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCode.dir/minDistance.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\99681\CLionProjects\LeetCode\minDistance.cpp > CMakeFiles\LeetCode.dir\minDistance.cpp.i
+CMakeFiles/LeetCode.dir/PredictTheWinner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCode.dir/PredictTheWinner.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\99681\CLionProjects\LeetCode\PredictTheWinner.cpp > CMakeFiles\LeetCode.dir\PredictTheWinner.cpp.i
 
-CMakeFiles/LeetCode.dir/minDistance.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCode.dir/minDistance.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\99681\CLionProjects\LeetCode\minDistance.cpp -o CMakeFiles\LeetCode.dir\minDistance.cpp.s
+CMakeFiles/LeetCode.dir/PredictTheWinner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCode.dir/PredictTheWinner.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\99681\CLionProjects\LeetCode\PredictTheWinner.cpp -o CMakeFiles\LeetCode.dir\PredictTheWinner.cpp.s
 
 # Object files for target LeetCode
 LeetCode_OBJECTS = \
-"CMakeFiles/LeetCode.dir/minDistance.cpp.obj"
+"CMakeFiles/LeetCode.dir/PredictTheWinner.cpp.obj"
 
 # External object files for target LeetCode
 LeetCode_EXTERNAL_OBJECTS =
 
-LeetCode.exe: CMakeFiles/LeetCode.dir/minDistance.cpp.obj
+LeetCode.exe: CMakeFiles/LeetCode.dir/PredictTheWinner.cpp.obj
 LeetCode.exe: CMakeFiles/LeetCode.dir/build.make
 LeetCode.exe: CMakeFiles/LeetCode.dir/linklibs.rsp
 LeetCode.exe: CMakeFiles/LeetCode.dir/objects1.rsp
