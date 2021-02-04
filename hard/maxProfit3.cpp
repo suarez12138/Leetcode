@@ -9,22 +9,27 @@ using namespace std;
 
 class Solution {
 public:
-    int maxProfit3(vector<int> &prices, int fee) {
+    int maxProfit3(vector<int> &prices) {
         int n = prices.size();
-        int dp_i0 = 0, dp_i1 = - prices[0];
+        vector<vector<int>> dp(2,  {0,-prices[0]});
+
+//        dp[0][1]=-prices[0];
+//        dp[1][0]=0;
+//        dp[1][1]=-prices[0];
         for (int i = 1; i < n; ++i) {
-            int tmp = dp_i0;
-            dp_i0 = max(dp_i0, dp_i1 + prices[i] - fee);
-            dp_i1 = max(dp_i1, tmp - prices[i]);
+            dp[1][0]=max(dp[1][0],dp[1][1]+prices[i]);
+            dp[1][1]=max(dp[1][1],dp[0][0]-prices[i]);
+            dp[0][0]=max(dp[0][0],dp[0][1]+prices[i]);
+            dp[0][1]=max(dp[0][1],-prices[i]);
         }
-        return dp_i0;
+        return dp[1][0];
     }
 };
 
 int main() {
     Solution solution;
-    vector<int> nums{1, 3, 2, 8, 4, 9};
-    int outcome = solution.maxProfit3(nums, 2);
+    vector<int> nums{3, 3, 5, 0, 0, 3, 1, 4};
+    int outcome = solution.maxProfit3(nums);
     cout << outcome << endl;
     return 0;
 }
