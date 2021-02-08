@@ -122,32 +122,32 @@ LeetCode/fast:
 	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/build
 .PHONY : LeetCode/fast
 
-PredictTheWinner.obj: PredictTheWinner.cpp.obj
+middle/longestCommonSubsequence.obj: middle/longestCommonSubsequence.cpp.obj
 
-.PHONY : PredictTheWinner.obj
+.PHONY : middle/longestCommonSubsequence.obj
 
 # target to build an object file
-PredictTheWinner.cpp.obj:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/PredictTheWinner.cpp.obj
-.PHONY : PredictTheWinner.cpp.obj
+middle/longestCommonSubsequence.cpp.obj:
+	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/middle/longestCommonSubsequence.cpp.obj
+.PHONY : middle/longestCommonSubsequence.cpp.obj
 
-PredictTheWinner.i: PredictTheWinner.cpp.i
+middle/longestCommonSubsequence.i: middle/longestCommonSubsequence.cpp.i
 
-.PHONY : PredictTheWinner.i
+.PHONY : middle/longestCommonSubsequence.i
 
 # target to preprocess a source file
-PredictTheWinner.cpp.i:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/PredictTheWinner.cpp.i
-.PHONY : PredictTheWinner.cpp.i
+middle/longestCommonSubsequence.cpp.i:
+	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/middle/longestCommonSubsequence.cpp.i
+.PHONY : middle/longestCommonSubsequence.cpp.i
 
-PredictTheWinner.s: PredictTheWinner.cpp.s
+middle/longestCommonSubsequence.s: middle/longestCommonSubsequence.cpp.s
 
-.PHONY : PredictTheWinner.s
+.PHONY : middle/longestCommonSubsequence.s
 
 # target to generate assembly for a file
-PredictTheWinner.cpp.s:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/PredictTheWinner.cpp.s
-.PHONY : PredictTheWinner.cpp.s
+middle/longestCommonSubsequence.cpp.s:
+	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/middle/longestCommonSubsequence.cpp.s
+.PHONY : middle/longestCommonSubsequence.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... LeetCode
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... PredictTheWinner.obj
-	@echo ... PredictTheWinner.i
-	@echo ... PredictTheWinner.s
+	@echo ... middle/longestCommonSubsequence.obj
+	@echo ... middle/longestCommonSubsequence.i
+	@echo ... middle/longestCommonSubsequence.s
 .PHONY : help
 
 

@@ -3,4 +3,4 @@ project(LeetCode)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(LeetCode minDistance.cpp)
+add_executable(LeetCode middle/longestCommonSubsequence.cpp)
