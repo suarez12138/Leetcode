@@ -29,25 +29,39 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c76d129-0791-4568-a19e-8332b7f9b946" name="Default Changelist" comment="2.1">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easy/addTwoNumbers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easy/twoSum.js" afterDir="false" />
+    <list default="true" id="0c76d129-0791-4568-a19e-8332b7f9b946" name="Default Changelist" comment="2.8">
+      <change afterPath="$PROJECT_DIR$/easy/7.reverse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/4.findMedianSortedArrays.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/2.addTwoNumbers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/3.lengthOfLongestSubstring.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/300.lengthOfLIS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/322.coinChange.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/LeetCode.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LeetCode.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/LeetCode.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LeetCode.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/addTwoNumbers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/maxProfit.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/easy/121.maxProfit.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/maxProfit2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/easy/122.maxProfit2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/twoSum.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy/1.twoSum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/maxProfit3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hard/123.maxProfit3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/maxProfit4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hard/188.maxProfit4.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/minDistance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hard/72.minDistance.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/solveNQueens.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hard/51.solveNQueens.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/superEggDrop.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hard/887.superEggDrop.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middle/PredictTheWinner.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/middle/486.PredictTheWinner.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middle/eraseOverlapIntervals.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/middle/435.eraseOverlapIntervals.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middle/findAnagrams.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/middle/438.findAnagrams.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middle/findMinArrowShots.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/middle/452.findMinArrowShots.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middle/longestCommonSubsequence.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/middle/1143.longestCommonSubsequence.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middle/longestPalindromeSubseq.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/middle/516.longestPalindromeSubseq.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middle/maxProfit5.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/middle/309.maxProfit5.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middle/maxProfit6.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/middle/714.maxProfit6.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middle/rob1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/middle/198.rob1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middle/rob2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/middle/213.rob2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middle/rob3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/middle/337.rob3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middle/stoneGame.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/middle/877.stoneGame.cpp" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +69,21 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/middle/300.lengthOfLIS.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/middle/322.coinChange.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,10 +107,52 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/easy/addTwoNumbers.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/easy/7.reverse.js" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/middle/300.lengthOfLIS.js" />
+        <option value="$PROJECT_DIR$/middle/322.coinChange.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="width" value="1239" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectId" id="1oCUuMs6F7bx5WNkI8VKjBj0xJV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="hard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="middle" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -106,17 +177,29 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\99681\CLionProjects\LeetCode\middle" />
+      <recent name="C:\Users\99681\CLionProjects\LeetCode\hard" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\99681\CLionProjects\LeetCode\middle" />
       <recent name="C:\Users\99681\CLionProjects\LeetCode\hard" />
       <recent name="C:\Users\99681\CLionProjects\LeetCode\easy" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\99681\CLionProjects\LeetCode\middle" />
-      <recent name="C:\Users\99681\CLionProjects\LeetCode\hard" />
-    </key>
   </component>
-  <component name="RunManager" selected="Node.js.addTwoNumbers.js">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.LeetCode">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -133,20 +216,20 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="addTwoNumbers.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/easy/addTwoNumbers.js" working-dir="$PROJECT_DIR$/easy">
+    <configuration name="7.reverse.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/easy/7.reverse.js" working-dir="$PROJECT_DIR$/easy">
+      <method v="2" />
+    </configuration>
+    <configuration name="addTwoNumbers.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/middle/addTwoNumbers.js" working-dir="$PROJECT_DIR$/easy">
+      <method v="2" />
+    </configuration>
+    <configuration name="lengthOfLongestSubstring.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/middle/lengthOfLongestSubstring.js" working-dir="$PROJECT_DIR$/middle">
       <method v="2" />
     </configuration>
     <configuration name="twoSum.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/easy/twoSum.js" working-dir="$PROJECT_DIR$/easy">
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.addTwoNumbers.js" />
-        <item itemvalue="Node.js.twoSum.js" />
-      </list>
-    </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -178,7 +261,9 @@
       <workItem from="1612587697487" duration="650000" />
       <workItem from="1612674537060" duration="1191000" />
       <workItem from="1612790165225" duration="137000" />
-      <workItem from="1612792891321" duration="1489000" />
+      <workItem from="1612792891321" duration="2035000" />
+      <workItem from="1612839870470" duration="7500000" />
+      <workItem from="1612854975830" duration="1641000" />
     </task>
     <task id="LOCAL-00001" summary="1.21">
       <created>1611243683824</created>
@@ -243,8 +328,18 @@
       <option name="project" value="LOCAL" />
       <updated>1612507803710</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2.8">
+      <created>1612794645060</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1612794645060</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1641000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -255,8 +350,33 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497979" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="make" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.cpp" />
@@ -276,7 +396,14 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -295,7 +422,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.21" />
@@ -305,16 +431,26 @@
     <MESSAGE value="2.3" />
     <MESSAGE value="2.4" />
     <MESSAGE value="2.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.5" />
+    <MESSAGE value="2.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/easy/addTwoNumbers.js</url>
+          <url>file://$PROJECT_DIR$/middle/2.addTwoNumbers.js</url>
+          <line>26</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/middle/2.addTwoNumbers.js</url>
+          <line>10</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/easy/7.reverse.js</url>
           <line>8</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -324,6 +460,17 @@
         <watch expression="pp" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/middle/3.lengthOfLongestSubstring.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middle/300.lengthOfLIS.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middle/322.coinChange.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
