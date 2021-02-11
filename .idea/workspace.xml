@@ -29,12 +29,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c76d129-0791-4568-a19e-8332b7f9b946" name="Default Changelist" comment="2.8">
-      <change afterPath="$PROJECT_DIR$/middle/5.longestPalindrome.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/6.convert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/8.myAtoi.js" afterDir="false" />
+    <list default="true" id="0c76d129-0791-4568-a19e-8332b7f9b946" name="Default Changelist" comment="2.10">
+      <change afterPath="$PROJECT_DIR$/easy/9.isPalindrome.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/4.findMedianSortedArrays.js" beforeDir="false" afterPath="$PROJECT_DIR$/hard/4.findMedianSortedArrays.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +102,7 @@
       <recent name="C:\Users\99681\CLionProjects\LeetCode\easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.5.longestPalindrome.js">
+  <component name="RunManager" selected="Node.js.9.isPalindrome.js">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -134,16 +131,16 @@
     <configuration name="7.reverse.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/easy/7.reverse.js" working-dir="$PROJECT_DIR$/easy">
       <method v="2" />
     </configuration>
-    <configuration name="lengthOfLongestSubstring.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/middle/lengthOfLongestSubstring.js" working-dir="$PROJECT_DIR$/middle">
+    <configuration name="9.isPalindrome.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/easy/9.isPalindrome.js" working-dir="$PROJECT_DIR$/easy">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.9.isPalindrome.js" />
         <item itemvalue="Node.js.5.longestPalindrome.js" />
         <item itemvalue="Node.js.6.convert.js" />
         <item itemvalue="Node.js.4.findMedianSortedArrays.js" />
         <item itemvalue="Node.js.7.reverse.js" />
-        <item itemvalue="Node.js.lengthOfLongestSubstring.js" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +178,7 @@
       <workItem from="1612790165225" duration="137000" />
       <workItem from="1612792891321" duration="2035000" />
       <workItem from="1612839870470" duration="12156000" />
-      <workItem from="1612926519561" duration="6880000" />
+      <workItem from="1612926519561" duration="9012000" />
     </task>
     <task id="LOCAL-00001" summary="1.21">
       <created>1611243683824</created>
@@ -253,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612794645060</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2.10">
+      <created>1612951724268</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1612951724268</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -316,7 +320,8 @@
     <MESSAGE value="2.4" />
     <MESSAGE value="2.5" />
     <MESSAGE value="2.8" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.8" />
+    <MESSAGE value="2.10" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -359,6 +364,12 @@
           <line>14</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/easy/9.isPalindrome.js</url>
+          <line>2</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
