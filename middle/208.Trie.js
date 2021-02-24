@@ -54,3 +54,8 @@ Trie.prototype.startsWith = function(prefix) {
  * var param_2 = obj.search(word)
  * var param_3 = obj.startsWith(prefix)
  */
+
+let trie = new Trie();
+
+trie.insert("apple");
+trie.search("apple");
