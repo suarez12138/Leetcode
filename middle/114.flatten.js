@@ -1,13 +1,34 @@
-// TODO:
-let usename=document.getElementById('username');
-let password=document.getElementById('password');
-let password2=document.getElementById('password-2');
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val, left, right) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.left = (left===undefined ? null : left)
+ *     this.right = (right===undefined ? null : right)
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @return {void} Do not return anything, modify root in-place instead.
+ */
+var flatten = function(root) {
+    if(!root)return null;
+    function preorder(node){
+        if(node.left&&node.right){
+            let mark=node.left;
+            while(mark.right){
+                mark=mark.right;
+            }
+            mark.right=node.right;
+            node.right=node.left;
+            node.left=null;
+        }else if(node.left){
+            node.right=node.left;
+            node.left=null;
+        }
+        if(node.right)
+            preorder(node.right);
+    }
 
-const vu=/^\w{3,10}$/
-const vp=/^\w{6,20}$/
-if(!vu.exec(usename.value)||!vp.exec(password.value)||password.value!==password2.value){
-    console.log("false");
-    return false;
-}
-
-}
+    preorder(root);
+    return root;
+};
