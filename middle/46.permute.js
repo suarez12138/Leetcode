@@ -13,12 +13,13 @@ var permute = function (nums) {
             ans.push(frame.slice());
             return;
         }
-        for (let i=first;i<len;i++){
-            [frame[i],frame[first]]=[frame[first],frame[i]];
-            backtrack(frame,first+1,len);
-            [frame[i],frame[first]]=[frame[first],frame[i]];
+        for (let i = first; i < len; i++) {
+            [frame[i], frame[first]] = [frame[first], frame[i]];
+            backtrack(frame, first + 1, len);
+            [frame[i], frame[first]] = [frame[first], frame[i]];
         }
     }
+
     return ans;
 }
 
