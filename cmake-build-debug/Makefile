@@ -122,32 +122,32 @@ LeetCode/fast:
 	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/build
 .PHONY : LeetCode/fast
 
-middle/longestCommonSubsequence.obj: middle/longestCommonSubsequence.cpp.obj
+middle/1143.longestCommonSubsequence.obj: middle/1143.longestCommonSubsequence.cpp.obj
 
-.PHONY : middle/longestCommonSubsequence.obj
+.PHONY : middle/1143.longestCommonSubsequence.obj
 
 # target to build an object file
-middle/longestCommonSubsequence.cpp.obj:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/middle/longestCommonSubsequence.cpp.obj
-.PHONY : middle/longestCommonSubsequence.cpp.obj
+middle/1143.longestCommonSubsequence.cpp.obj:
+	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/middle/1143.longestCommonSubsequence.cpp.obj
+.PHONY : middle/1143.longestCommonSubsequence.cpp.obj
 
-middle/longestCommonSubsequence.i: middle/longestCommonSubsequence.cpp.i
+middle/1143.longestCommonSubsequence.i: middle/1143.longestCommonSubsequence.cpp.i
 
-.PHONY : middle/longestCommonSubsequence.i
+.PHONY : middle/1143.longestCommonSubsequence.i
 
 # target to preprocess a source file
-middle/longestCommonSubsequence.cpp.i:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/middle/longestCommonSubsequence.cpp.i
-.PHONY : middle/longestCommonSubsequence.cpp.i
+middle/1143.longestCommonSubsequence.cpp.i:
+	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/middle/1143.longestCommonSubsequence.cpp.i
+.PHONY : middle/1143.longestCommonSubsequence.cpp.i
 
-middle/longestCommonSubsequence.s: middle/longestCommonSubsequence.cpp.s
+middle/1143.longestCommonSubsequence.s: middle/1143.longestCommonSubsequence.cpp.s
 
-.PHONY : middle/longestCommonSubsequence.s
+.PHONY : middle/1143.longestCommonSubsequence.s
 
 # target to generate assembly for a file
-middle/longestCommonSubsequence.cpp.s:
-	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/middle/longestCommonSubsequence.cpp.s
-.PHONY : middle/longestCommonSubsequence.cpp.s
+middle/1143.longestCommonSubsequence.cpp.s:
+	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/middle/1143.longestCommonSubsequence.cpp.s
+.PHONY : middle/1143.longestCommonSubsequence.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... LeetCode
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... middle/longestCommonSubsequence.obj
-	@echo ... middle/longestCommonSubsequence.i
-	@echo ... middle/longestCommonSubsequence.s
+	@echo ... middle/1143.longestCommonSubsequence.obj
+	@echo ... middle/1143.longestCommonSubsequence.i
+	@echo ... middle/1143.longestCommonSubsequence.s
 .PHONY : help
 
 

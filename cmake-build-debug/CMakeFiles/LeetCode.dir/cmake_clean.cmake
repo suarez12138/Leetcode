@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LeetCode.dir/middle/longestCommonSubsequence.cpp.obj"
+  "CMakeFiles/LeetCode.dir/middle/1143.longestCommonSubsequence.cpp.obj"
   "LeetCode.pdb"
   "LeetCode.exe"
   "LeetCode.exe.manifest"
