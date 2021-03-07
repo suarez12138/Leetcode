@@ -16,6 +16,7 @@ function TreeNode(val, left, right) {
     this.left = (left === undefined ? null : left)
     this.right = (right === undefined ? null : right)
 }
+
 var kthLargest = function (root, k) {
     let arr = [], min = null, index = 0;
     dfs(root);
@@ -52,7 +53,7 @@ var kthLargest = function (root, k) {
 };
 
 
-console.log(kthLargest(generatetree([3,1,4,null,2]),1))
+console.log(kthLargest(generatetree([3, 1, 4, null, 2]), 1))
 
 function generatetree(arr) {
     if (arr.length == 0) return null;
