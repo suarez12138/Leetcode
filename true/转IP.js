@@ -1,8 +1,8 @@
 // 给定一个IP地址如127.0.0.1，将其转换为十进制的整数
 
 function translate(ip) {
-    let arr = ip.split(".").map(item => parseInt(item));
-    arr = arr.map(item => item.toString(2));
+    let arr = ip.split(".").map(item => parseInt(item).toString(2));
+    // arr = arr.map(item => item.toString(2));
     let res = '';
     for (e of arr) {
         while (e.length < 9) {
