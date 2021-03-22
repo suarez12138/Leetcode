@@ -7,9 +7,7 @@ function add(s1,s2){
         if (n2>=0)t2=s2.charAt(n2--)-'0';
         res.unshift((t1+t2+carry)%10);
         carry=Math.floor((t1+t2+carry)/10);
-
     }
-
     if (carry)res.unshift(carry);
     return res.join('')
 }
