@@ -22,7 +22,7 @@ function quick(arr, l, r) {
 }
 
 
-console.log(quicksort(arr, 0, arr.length - 1));
+console.log(quick2(arr, 0, arr.length - 1));
 console.log(arr);
 
 
@@ -45,8 +45,19 @@ function quicksort(arr, l, r) {
 }
 
 
-
-
-
+function quick2(arr, l, r) {
+    if (r > l) {
+        let tmpl = l, tmpr = r, mark = arr[l];
+        while (tmpl < tmpr) {
+            while (tmpl < tmpr && arr[tmpr] > mark) tmpr--;
+            if (tmpl < tmpr) arr[tmpl++] = arr[tmpr];
+            while (tmpl < tmpr && arr[tmpl] < mark) tmpl++;
+            if (tmpl < tmpr) arr[tmpr--] = arr[tmpl];
+        }
+        arr[tmpl] = mark;
+        quick2(arr, l, tmpl - 1);
+        quick2(arr, tmpl + 1, r);
+    }
+}
 
 
