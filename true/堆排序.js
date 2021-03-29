@@ -24,7 +24,7 @@ function adjust(arr, i, len) {
 
 let arr = [3, 2, 5, 3, 4, 6, 4, 2, 1, 6, 4];
 
-console.log(heapsort2(arr));
+console.log(heapsort3(arr));
 
 
 function heapsort2(arr) {
@@ -52,3 +52,31 @@ function adjust2(arr, l, r) {
         } else break;
     }
 }
+
+
+function heapsort3(arr) {
+    let n = arr.length;
+    for (let i = (n >> 1) - 1; i >= 0; i--) {
+        adjust3(arr, i, n);
+    }
+    for (let i = n - 1; i >= 0; i--) {
+        [arr[0], arr[i]] = [arr[i], arr[0]];
+        adjust3(arr, 0, i);
+    }
+    return arr;
+}
+
+
+function adjust3(arr, i, len) {
+    let tmp = 2 * i;
+    while (tmp < len) {
+        if (tmp + 1 < len && arr[tmp + 1] > arr[tmp]) tmp++;
+        if (arr[i] < arr[tmp]) {
+            [arr[i], arr[tmp]] = [arr[tmp], arr[i]];
+            i = tmp;
+            tmp *= 2;
+        }else break;
+    }
+}
+
+
