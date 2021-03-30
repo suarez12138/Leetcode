@@ -8,23 +8,23 @@ var reverseKGroup = function (head, k) {
     prehead.next = head;
     let point = head, h = prehead;
     label:
-    while (true) {
-        let test=point;
-        for (let i = 0; i < k; i++) {
-            if (test){
-                test=test.next;
-            }else break label;
-        }
-        for (let i = 0; i < k-1; i++) {
-            let tmp = point.next.next;
-            point.next.next=h.next;
-            h.next=point.next;
-            point.next=tmp;
-        }
-        h = point;
-        point = point.next;
+        while (true) {
+            let test = point;
+            for (let i = 0; i < k; i++) {
+                if (test) {
+                    test = test.next;
+                } else break label;
+            }
+            for (let i = 0; i < k - 1; i++) {
+                let tmp = point.next.next;
+                point.next.next = h.next;
+                h.next = point.next;
+                point.next = tmp;
+            }
+            h = point;
+            point = point.next;
 
-    }
+        }
     return prehead.next;
 }
 
@@ -40,4 +40,4 @@ let h3 = new ListNode(3, h4)
 let h2 = new ListNode(2, h3)
 let h1 = new ListNode(1, h2)
 
-console.log(reverseKGroup(h1,2))
+console.log(reverseKGroup(h1, 2))
